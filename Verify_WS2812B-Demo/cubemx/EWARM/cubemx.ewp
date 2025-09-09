@@ -1058,47 +1058,14 @@
     <group>
       <name>User</name>
       <file>
-        <name>$PROJ_DIR$/../C:/Users/18452/Documents/Github_youngnights/ws2812b-verify-demo/Verify_WS2812B-Demo/cubemx/Src/main.c</name>
+        <name>$PROJ_DIR$/../Src/main.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$/../C:/Users/18452/Documents/Github_youngnights/ws2812b-verify-demo/Verify_WS2812B-Demo/cubemx/Src/stm32f1xx_it.c</name>
+        <name>$PROJ_DIR$/../Src/stm32f1xx_it.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$/../C:/Users/18452/Documents/Github_youngnights/ws2812b-verify-demo/Verify_WS2812B-Demo/cubemx/Src/stm32f1xx_hal_msp.c</name>
+        <name>$PROJ_DIR$/../Src/stm32f1xx_hal_msp.c</name>
       </file>
-      <group>
-        <name>C:</name>
-        <group>
-          <name>Users</name>
-          <group>
-            <name>18452</name>
-            <group>
-              <name>Documents</name>
-              <group>
-                <name>Github_youngnights</name>
-                <group>
-                  <name>ws2812b-verify-demo</name>
-                  <group>
-                    <name>Verify_WS2812B-Demo</name>
-                    <group>
-                      <name>cubemx</name>
-                      <file>
-                        <name>$PROJ_DIR$/../C:/Users/18452/Documents/Github_youngnights/ws2812b-verify-demo/Verify_WS2812B-Demo/cubemx/Src/main.c</name>
-                      </file>
-                      <file>
-                        <name>$PROJ_DIR$/../C:/Users/18452/Documents/Github_youngnights/ws2812b-verify-demo/Verify_WS2812B-Demo/cubemx/Src/stm32f1xx_it.c</name>
-                      </file>
-                      <file>
-                        <name>$PROJ_DIR$/../C:/Users/18452/Documents/Github_youngnights/ws2812b-verify-demo/Verify_WS2812B-Demo/cubemx/Src/stm32f1xx_hal_msp.c</name>
-                      </file>
-                    </group>
-                  </group>
-                </group>
-              </group>
-            </group>
-          </group>
-        </group>
-      </group>
     </group>
   </group>
   <group>

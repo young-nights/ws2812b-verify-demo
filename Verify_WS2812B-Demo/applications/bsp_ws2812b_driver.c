@@ -263,12 +263,21 @@ static void ws2812b_demo_start(void)
 }
 
 /* msh命令：启动WS2812B Demo */
-static int cmd_ws2812b_demo(int argc, char **argv)
+int cmd1(void)
 {
-    ws2812b_demo_start();
+//    ws2812b_demo_start();
+    WS2812B_SPI_Init();
+    ws2812b_table_init();
+    ws2812b_clear();
+    ws2812b_show();
+    rt_thread_mdelay(1000);
+    ws2812b_set_all(WS2812B_COLOR_ORANGE);
+//    ws2812b_set_color(7,WS2812B_COLOR_ORANGE);
+    ws2812b_show();
+
     return RT_EOK;
 }
-MSH_CMD_EXPORT(cmd_ws2812b_demo, start WS2812B demo);
+MSH_CMD_EXPORT(cmd1, WS2812B_demo);
 
 
 
