@@ -57,6 +57,6 @@ software：RT-Thread
 ==STM32F103 系列，主频48MHz环境下，灯效显示正常==
 ==STM32H743 系列，主频68MHz环境下，灯效显示正常==
 
-
+![实验结果](./images/ws2812b_images5.jpg)
 
 </font>
