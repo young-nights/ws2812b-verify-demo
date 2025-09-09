@@ -39,16 +39,19 @@ software：RT-Thread
 
 ![设置MCU主频](./images/ws2812b_images3.png)
 </br>
+
 2. 设置SPI的预分频系数使SPI的波特率到6.0MBits/s
 </br>
+
 ![设置SPI预分频系数](./images/ws2812b_images2.png)
 </br>
+
 3. STM32F103RET6最小系统板连接灯带效果图
 ![板子接线](./images/ws2812b_images4.jpg)
 </br>
+
 4. 实验结果图
 ![实验结果](./images/ws2812b_images5.jpg)
-
 
 </font>
 
