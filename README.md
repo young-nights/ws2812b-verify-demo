@@ -42,6 +42,13 @@ software：RT-Thread
 
 ![设置SPI预分频系数](./images/ws2812b_images2.png)
 
+3. STM32F103RET6最小系统板连接灯带效果图
+![板子接线](./images/ws2812b_images4.jpg)
+
+4. 实验结果图
+![实验结果](./images/ws2812b_images5.jpg)
+
+
 </font>
 
 
@@ -56,7 +63,5 @@ software：RT-Thread
 **实测结果：** </br>
 STM32F103 系列，主频48MHz环境下，灯效显示正常</br>
 STM32H743 系列，主频68MHz环境下，灯效显示正常</br>
-
-![实验结果](./images/ws2812b_images5.jpg)
 
 </font>
