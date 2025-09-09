@@ -33,6 +33,7 @@ software：RT-Thread
 | `WS2812B_RGB_BITS` | 24   | 每颗灯 24 位数据（GRB 各 8 位）             |
 | `WS2812B_CODE_0`   | 0xC0 | 用 SPI 发 0b11000000，模拟 0 码（高 220 ns） |
 | `WS2812B_CODE_1`   | 0xF0 | 用 SPI 发 0b11110000，模拟 1 码（高 580 ns） |
+</font>
 
 单片机设置，打开CubeMX，此处特别强调以下两点配置，其他按照正常流程配置即可，就不做复述：
 1. 设置单片机主频为48Mhz
@@ -41,10 +42,8 @@ software：RT-Thread
 2. 设置SPI的预分频系数使SPI的波特率到6.0MBits/s
 ![设置SPI预分频系数](./images/ws2812b_images2.png)
 
-3. 实验结果图
+3. 实验结果图</br>
 ![实验结果](./images/ws2812b_images4.png)
-
-</font>
 
 
 # <font size=3>三、注意事项</font>
