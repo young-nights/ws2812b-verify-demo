@@ -37,18 +37,12 @@ software：RT-Thread
 单片机设置，打开CubeMX，此处特别强调以下两点配置，其他按照正常流程配置即可，就不做复述：
 1. 设置单片机主频为48Mhz
 ![设置MCU主频](./images/ws2812b_images3.png)
-</br>
 
 2. 设置SPI的预分频系数使SPI的波特率到6.0MBits/s
 ![设置SPI预分频系数](./images/ws2812b_images2.png)
-</br>
 
-3. STM32F103RET6最小系统板连接灯带效果图
-![板子接线](./images/ws2812b_images4.jpg)
-</br>
-
-4. 实验结果图
-![实验结果](./images/ws2812b_images5.jpg)
+3. 实验结果图
+![实验结果](./images/ws2812b_images4.png)
 
 </font>
 
