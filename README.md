@@ -9,8 +9,9 @@ software：RT-Thread
 <font size=2>```ws2812b driver```是一款基于 SPI 的 WS2812B 灯带驱动软件包，基于 RT-Thread SPI框架 设计。通过 SPI 高速输出编码数据，实现流畅、稳定的多彩灯效展示。</font>
 
 ## <font size=2>1. RGB灯带接口说明</font>
-<font size=2>为快速验证RGB灯带的可用性,节省焊接成本，本次RGB灯带板的主控板使用自制的STM32F103RET6最小单片机系统板，RGB板为外置的铝基板，板上预留MOSI的数据引脚接口，以及VDD和GND接口。</font>
+<font size=2>为快速验证RGB灯带的可用性,节省焊接成本，本次RGB灯带板的主控板使用自制的STM32F103RET6最小单片机系统板，RGB板为外置的铝基板，板上预留MOSI的数据引脚接口，以及VDD和GND接口。</font></br>
 ![铝基板](./images/ws2812b_images1.jpg)
+</br>
 
 ## <font size=2>2. 主要功能特性</font>
 <font size=2> 
@@ -37,14 +38,14 @@ software：RT-Thread
 1. 设置单片机主频为48Mhz
 
 ![设置MCU主频](./images/ws2812b_images3.png)
-
+</br>
 2. 设置SPI的预分频系数使SPI的波特率到6.0MBits/s
-
+</br>
 ![设置SPI预分频系数](./images/ws2812b_images2.png)
-
+</br>
 3. STM32F103RET6最小系统板连接灯带效果图
 ![板子接线](./images/ws2812b_images4.jpg)
-
+</br>
 4. 实验结果图
 ![实验结果](./images/ws2812b_images5.jpg)
 
